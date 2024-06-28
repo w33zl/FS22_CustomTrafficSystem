@@ -6,8 +6,8 @@ You can include traffic system vehicles from the base game, maps and even create
 
 
 ## USAGE:
-1. Rename the file 'disabled_customTrafficSystem.xml' to 'customTrafficSystem.xml', the file is found in the 'modSettings/FS22_000_CustomTrafficSystem' folder found in your MyDocuments/MyGames/FarmingSimulator2022 folder.
-2. Edit the <vehicle filename="..." /> XML nodes with your custom traffic (a copy of a default car from the base game is included as an example)
+1. Rename the file `disabled_customTrafficSystem.xml` to `customTrafficSystem.xml`, the file is found in the `modSettings/FS22_000_CustomTrafficSystem` folder found in your `MyDocuments/MyGames/FarmingSimulator2022` folder.
+2. Edit the `<vehicle filename="..." />` XML nodes with your custom traffic (a copy of a default car from the base game is included as an example)
 3. Add references to the vehicles you want to include in your traffic system 
 4. Enable the mod and enjoy!
 
@@ -15,9 +15,9 @@ See sections below for further details.
 
 
 ## ADDING NEW VEHICLES:
-To add a vehicle to your custom traffic system, all you need to do is refernece the XML file of the vehicle (see section below how to find these) to your 'customTrafficSystem.xml' file. 
+To add a vehicle to your custom traffic system, all you need to do is refernece the XML file of the vehicle (see section below how to find these) to your `customTrafficSystem.xml` file. 
 
-Add a vehicle node (<vehicle />) to the <vehicles /> section for each vehicle you want to include in your custom traffic system. Make sure the path in the filename attribute is relative to the 'customTrafficSystem.xml' or an absolute path (typically '$data/vehicles/cars' for base game vehicles). 
+Add a vehicle node (<vehicle />) to the <vehicles /> section for each vehicle you want to include in your custom traffic system. Make sure the path in the filename attribute is relative to the `customTrafficSystem.xml` or an absolute path (typically `$data/vehicles/cars` for base game vehicles). 
 
 If you want to include the base game vehicle 'vehicle_04' as well as a custom 'fireTruck' you created yourself, the 'customTrafficSystem.xml' could look like this:
     <trafficSystem>
